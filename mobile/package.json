@@ -1,0 +1,27 @@
+{
+  "name": "anti-fraud-mobile",
+  "version": "1.0.0",
+  "description": "防詐平台移動應用",
+  "private": true,
+  "dependencies": {
+    "react-native": "^0.71.0",
+    "@react-navigation/native": "^6.1.0",
+    "@react-navigation/bottom-tabs": "^6.5.0",
+    "react-native-screens": "^3.20.0",
+    "react-native-safe-area-context": "^4.5.0",
+    "axios": "^1.4.0",
+    "zustand": "^4.3.7",
+    "react-native-gesture-handler": "^2.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-react": "^7.18.0",
+    "@babel/preset-typescript": "^7.18.0"
+  },
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest --passWithNoTests"
+  }
+}
